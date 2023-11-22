@@ -2,8 +2,28 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: #000;
 }
 
 main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
+}
+
+.cronometro{
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 20px;
+    background: #222;
+}
+
+.cronometro button{
+    border-radius: 45%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+    transition: .3s;
+}
+button:focus {
+    outline: none;
 }
